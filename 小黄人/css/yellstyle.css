@@ -1,0 +1,347 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.xyellp{
+	width: 360px;
+	height: 600px;
+	background: #f9d946;
+	border: 8px solid #000;
+	border-radius: 181px;
+	margin: 100px auto;
+	position: relative;
+	/*overflow: hidden;*/
+}
+.overa{
+	width: 360px;
+	height: 240px;
+	background: #2074a0;
+	border: 1px solid #2074a0;
+	border-top:8px solid #000 ;
+	border-bottom-right-radius: 176px;
+	border-bottom-left-radius: 175px;
+	position: absolute;
+	top:353px;
+	left:-1px ;
+}
+.anera{
+	width: 7px;
+	height: 65px;
+	background: #000;
+	border: 1px solid #000;
+	border-radius: 7px;
+	position: absolute;
+	left: 175px;
+	top: 175px;
+}
+.aneraL{
+	width: 35px;
+    height:35px;
+    border-bottom:8px solid #000;
+    border-right:8px solid #000;
+    border-bottom-right-radius: 100px;
+    position: absolute;
+    top: 108px;	
+    left: 13px;
+}
+.aneraR{
+	width: 35px;
+    height:35px;
+    border-bottom:8px solid #000;
+    border-left:8px solid #000;
+    border-bottom-left-radius: 100px;
+    position: absolute;
+    top: 108px;	
+    right: 13px;
+}
+.bokle{
+	width: 49px;
+	height: 88px;
+	border-right:8px solid #000 ;
+	border-bottom:8px solid #000  ;
+	background: #f9d946;
+	position: absolute;
+	top: -8px;
+}
+.bokri{
+	width: 49px;
+	height: 88px;
+	border-left:8px solid #000 ;
+	border-bottom:8px solid #000  ;
+	background: #f9d946;
+	position: absolute;
+	top: -8px;
+	right: -1px;
+}
+.tie-L{
+	width: 23px;
+	height: 130px;
+	background: #2074a0;
+	border: 8px solid #000;
+	transform: rotate(131deg);
+	position: absolute;
+	top: -83px;
+	left:14px ;
+	z-index: 1;
+}
+.DotsL{
+	width: 10px;
+	height: 10px;
+	background: #000;
+	border: 1px solid #000;
+	border-radius: 10px;
+	position: relative;
+	top: 9px;
+	right: -5px;
+}
+.tie-R{
+	width: 23px;
+	height: 130px;
+	background: #2074a0;
+	border: 8px solid #000;
+	transform: rotate(-131deg);
+	position: absolute;
+	top: -83px;
+	right:14px ;
+	z-index: 1;
+}
+.DotsR{
+	width: 10px;
+	height: 10px;
+	background: #000;
+	border: 1px solid #000;
+	border-radius: 10px;
+	position: relative;
+	bottom: -7px;
+	left: 4px;
+}
+.bell{
+	width: 90px;
+	height: 67px;
+	border: 8px solid #000;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	position: absolute;
+	top:64px;
+	left: 124px;
+}
+.mouth{
+	width: 62px;
+	height: 33px;
+	border: 8px solid #000;
+	background: #fff;
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	position: absolute;
+	top:245px;
+	left: 140px;
+}
+.eye{
+	width: 359px;
+	height: 148px;
+	position: absolute;
+	left: 0;
+	top: 75px;
+}
+.eye-l{
+	width: 176px;
+	height: 148px;
+	float: left;
+}
+.eye-r{
+	width: 176px;
+	height: 148px;
+	float: left;
+}
+.ddz{
+	width: 41px;
+	height: 23px;
+	position: relative;
+	top: 54px;
+	left: -5px;
+	z-index: 1;
+	background: #000000;
+	transform: rotate(10deg);
+}
+.ddzr{
+	position: relative;
+	top: 54px;
+	left: 140px;
+	transform: rotate(-10deg);
+}
+.eylin{
+	position: relative;
+	top: -21px;
+	right:-30px;
+	width: 128px;
+	height: 128px;
+	background: #fff;
+	border: 8px solid #000000;
+	border-radius: 50%;
+}
+.eylin-r{
+	top: -21px;
+	right:2px;
+}
+.eyblk{
+	width: 58px;
+	height: 58px;
+	background: #000;
+	border: 1px solid #000;
+	border-radius: 50%;
+	position: relative;
+	left: 34px;
+	top: 36px;
+}
+.eywol{
+	width: 21px;
+	height: 21px;
+	background: #fff;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	position: relative;
+	top: 14px;
+	left: 33px;
+	
+}
+
+.hair1{
+	width: 114px;
+    height:78px;
+    border-radius: 50%;
+    border-top:8px solid #000;
+    transform: rotate(30deg);
+	position: relative;
+	left: 68px;
+	top:-40px;
+	z-index: -1;
+	animation: hairone 2s ease-in-out infinite;
+}
+@keyframes hairone{
+    /*0%,25%,31%,100%{
+    }*/
+    30%{
+        transform: rotate(31deg) translate3d(-3px,-1px,0);
+    }
+}
+.hair2{
+	width: 135px;
+    height:128px;
+    border-radius: 50%;
+    border-top:8px solid #000;
+    transform: rotate(20deg);
+    left: 53px;
+	top:-119px;
+}
+.tie-Lover{
+	width: 27px;
+	height: 52px;
+	background: #fff;
+	position: relative;
+	left: -35px;
+	top: -73px;
+	z-index: 2;
+}
+.tie-Rover{
+	position: relative;
+	left: 368px;
+	top: -125px;
+}
+.foot-lef{
+	width: 50px;
+	height: 73px;
+	background: #000;
+	border: 1px solid #000;
+	border-radius: 7px;
+	position: relative;
+	bottom: -374px;
+	left: 120px;
+	z-index: -1;
+	animation: fooyl 2s ease-in-out infinite;
+}
+@keyframes fooyl{
+	 0%,50%,100%{
+        -webkit-transform: rotate(0deg);
+    }
+	80%{
+	transform-origin: right top;
+	transform: rotate(14deg);}
+	}
+.foot-rig{
+	bottom: -301px;
+	left: 185px;
+	animation:fooyr 2s ease-in-out infinite;
+}
+@keyframes fooyr{
+	 0%,50%,100%{
+        -webkit-transform: rotate(0deg);
+    }
+	30%{
+	transform-origin: left top;
+	transform: rotate(-14deg);}
+}
+.foot-lin{
+	width: 83px;
+	height: 47px;
+	background: #000;
+	border:1px solid #000;
+	border-radius: 19px;
+	position: absolute;
+	left: -50px;
+	bottom: -1px;
+}
+.foot-linR{
+	left: 15px;
+}
+.handL{
+	width: 129px;
+    height: 77px;
+    background: #F9D946;
+    border: 8px solid #000;
+    border-bottom-left-radius: 44px;
+    position: relative;
+    left: -53px;
+    top: 1px;
+    transform: rotate(41deg);
+    z-index: -1;
+    animation: hadl 1s ease-in-out infinite;
+}
+@keyframes hadl{
+    0%,50%,100%{
+        -webkit-transform: rotate(41deg);
+    }
+    80%{
+        -webkit-transform: rotate(36deg) translateX(2px)
+    }
+}
+.handR{
+	border-bottom-right-radius: 44px;
+    transform: rotate(-41deg);
+    left: 266px;
+    top: -94px;
+    animation:hadr 1s ease-in-out infinite ;
+}
+@keyframes hadr{
+    0%,50%,100%{
+        -webkit-transform: rotate(-41deg);
+    }
+    30%{
+        -webkit-transform: rotate(-36deg) translateX(-2px)
+    }
+}
+.halin{
+	width: 7px;
+    height: 14px;
+    background: #000;
+    border: 1px solid #000;
+    border-radius: 3px;
+    transform: rotate(8deg);
+    position: absolute;
+    left: 25px;
+    top: 37px;
+}
+.halinL{
+    transform: rotate(-8deg);
+    left: 98px;
+    top: 37px;
+}
